@@ -1,4 +1,3 @@
-import xml.etree.ElementTree as etree
 import requests
 import time
 
@@ -10,10 +9,4 @@ with open('collection-extended.xml', "a") as xmlFile:
         xmlFile.write(response.content)
         print("Appending item: " + str(i))
         time.sleep(1)
-
-    
-    
-    #response = requests.get("https://www.boardgamegeek.com/xmlapi/boardgame/421")
-    #response = requests.get("https://www.boardgamegeek.com/xmlapi/boardgame/421")
-    #xmlFile.write(response.content)
 xmlFile.closed
