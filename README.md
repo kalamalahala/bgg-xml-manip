@@ -1,5 +1,7 @@
 # bgg-import
 
+Check the difference between the master and extended xml files
+
 xmlparser - initially written to write all board game ID's in the /collection/ API xml to a single list
 
 xmlscraper - called /boardgame/ API for each ID in the 606 long list, one second at a time to avoid 503s, and appended each returned xml content to an initially blank xml file
