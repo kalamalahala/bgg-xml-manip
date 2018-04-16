@@ -1,1 +1,1 @@
-# bgg-xml-manip
+# bgg-import
